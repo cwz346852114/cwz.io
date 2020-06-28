@@ -3,7 +3,7 @@ module.exports = {
     router: {
         base:'/cwz.io',
     },
-    mode:'spa',
+    mode:'universal',
     srcDir: 'src/',
     build: {
         babel: {
@@ -13,11 +13,12 @@ module.exports = {
     generate:{
        dir:'docs',
        subFolders:false
+     
     },
     css: [
     ],
     build: {
-        assetsPublicPath: './'
+
     },
     plugins: [
         {
