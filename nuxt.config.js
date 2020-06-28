@@ -1,8 +1,7 @@
 
 module.exports = {
     router: {
-        base:'/cwz',
-        mode:"history"
+        base:'/cwz.io',
     },
     mode:'spa',
     srcDir: 'src/',
@@ -12,7 +11,7 @@ module.exports = {
         }
     },
     generate:{
-       dir:'docs',
+       dir:'dist',
        subFolders:false
     },
     css: [
