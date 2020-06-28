@@ -11,7 +11,7 @@ module.exports = {
         }
     },
     generate:{
-       dir:'dist',
+       dir:'docs',
        subFolders:false
     },
     css: [
