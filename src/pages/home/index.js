@@ -4,25 +4,19 @@ export default {
     title: '首页',
     data() {
         return {
-            index: 1,
+     
         };
     },
   
     methods: {
         // 用于初始化一些数据
         async init() {
-     
     
         },
-        change1() {
-            this.index = 1;
-        },
-        change2() {
-            this.index = 2;
-        },
-        router(){
-            this.$router.push('/richText');
+        update(){
+        
         }
+  
     },
     head(){
 
