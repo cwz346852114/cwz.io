@@ -1,0 +1,243 @@
+#App {
+    background-color: white;
+    width: 100%;
+  }
+  
+  #App img {
+    width: 99%;
+  }
+  
+  #App .head {
+    display: flex;
+    height: 70px;
+    align-items: center;
+  }
+  
+  #App .head .img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #App .head .img img {
+    margin-left: -160px;
+    width: 128px;
+    height: 42px;
+  }
+  
+  #App .head .right-img {
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  #App .head .right-img .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    margin-left: 250px;
+  }
+  
+  #App .head .right-img .nav .tabs {
+    padding: 10px 20px;
+    margin-right: 40px;
+    color: #999999;
+    font-weight: bold;
+  }
+  
+  #App .head .right-img .nav .active {
+    color: #F44640;
+  }
+  
+  #App .box .center {
+    background-color: white;
+    padding: 87px 356px 117px;
+  }
+  
+  #App .box .center .title-icon {
+    margin-bottom: 5px;
+  }
+  
+  #App .box .center .title-icon img {
+    width: 40px;
+    height: 4px;
+  }
+  
+  #App .box .center .title {
+    margin-bottom: 43px;
+  }
+  
+  #App .box .center .title .title-top {
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  #App .box .center .title .title-bottom {
+    font-size: 14px;
+    color: #999999;
+  }
+  
+  #App .box .center .info-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #App .box .center .info-box .left {
+    flex: 1;
+    margin-top: 38px;
+  }
+  
+  #App .box .center .info-box .left .left-title {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  
+  #App .box .center .info-box .left .left-info {
+    color: #999999;
+    font-size: 16px;
+    width: 400px;
+    text-align: justify;
+  }
+  
+  #App .box .center .info-box .right {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  #App .box .center .info-box .right img {
+    width: 490px;
+    height: 273px;
+  }
+  
+  #App .box .bottom {
+    width: 99%;
+    background-color: #F5F6FA;
+    padding: 87px 356px 0;
+  }
+  
+  #App .box .bottom .info-box {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #App .box .bottom .info-box .left {
+    flex: 1;
+    margin-top: 38px;
+  }
+  
+  #App .box .bottom .info-box .left .title-icon {
+    margin-bottom: 5px;
+  }
+  
+  #App .box .bottom .info-box .left .title-icon img {
+    width: 40px;
+    height: 4px;
+  }
+  
+  #App .box .bottom .info-box .left .title {
+    margin-bottom: 43px;
+  }
+  
+  #App .box .bottom .info-box .left .title .title-top {
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  #App .box .bottom .info-box .left .title .title-bottom {
+    font-size: 14px;
+    color: #999999;
+  }
+  
+  #App .box .bottom .info-box .left .left-title {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  
+  #App .box .bottom .info-box .left .left-info {
+    color: #999999;
+    font-size: 16px;
+    width: 400px;
+    text-align: justify;
+  }
+  
+  #App .box .bottom .info-box .left .qr {
+    margin-top: 80px;
+    width: 140px;
+    height: 140px;
+  }
+  
+  #App .box .bottom .info-box .right {
+    flex: 1;
+    margin-left: -100px;
+  }
+  
+  #App .box .bottom .info-box .right img {
+    width: 1092px;
+    height: 578px;
+  }
+  
+  #App .box1 {
+    margin-top: 20px;
+  }
+  
+  #App .box1 .bg-img {
+    height: 650px;
+    position: relative;
+    width: 99%;
+    background: url("/guanwang/assets/images/map.png") no-repeat center;
+    background-size: cover cover;
+  }
+  
+  #App .box1 .bg-img .left {
+    position: absolute;
+    left: 340px;
+    top: 0px;
+  }
+  
+  #App .box1 .bg-img .left .title-icon {
+    margin-bottom: 5px;
+  }
+  
+  #App .box1 .bg-img .left .title-icon img {
+    width: 40px;
+    height: 4px;
+  }
+  
+  #App .box1 .bg-img .left .title {
+    margin-bottom: 43px;
+  }
+  
+  #App .box1 .bg-img .left .title .title-top {
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  #App .box1 .bg-img .left .title .title-bottom {
+    font-size: 14px;
+    color: #999999;
+  }
+  
+  #App .box1 .bg-img .left .left-info {
+    color: #999999;
+    font-size: 16px;
+    width: 400px;
+    text-align: justify;
+  }
+  
+  #App .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    color: #999999;
+    font-size: 14px;
+  }
+  

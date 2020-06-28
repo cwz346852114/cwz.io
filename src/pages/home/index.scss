@@ -1,0 +1,229 @@
+@import "@/styles/variable.scss";
+#home {
+    background-color: white;
+    width: 100%;
+    img{
+        width: 99%;
+        
+    }
+    .head{
+        display: flex;
+        height: 70px;
+        align-items: center;
+        .img{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+          
+            img{
+                margin-left: -160px;
+                width: 128px;
+                height: 42px;
+            }
+        }
+        .right-img{
+            flex: 1;
+            font-size: 16px;
+            .nav{
+                display: flex;
+                flex-direction: row;
+                align-items: right;
+                margin-left: 250px;
+                .tabs{
+                    padding: 10px 20px;
+                    margin-right: 40px;
+                    color: #999999;
+                    font-weight: bold;
+                }
+                .active{
+                    color: #F44640;
+                }
+            }
+        }
+    }
+    .box{
+        .top{
+
+        }
+        .center{
+            background-color: white;
+            padding: 87px 356px 117px;
+            .title-icon{
+                margin-bottom: 5px;
+                
+            
+                img{
+                    width: 40px;
+                    height: 4px;
+                }
+            }
+            .title{
+                margin-bottom:43px;
+                .title-top{
+                    font-size: 20px;
+                    color: #333333;
+                    font-weight: bold;
+                }
+                .title-bottom{
+                    font-size: 14px;
+                    color: #999999;
+                }
+            }
+            .info-box{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+          
+                .left{
+                    flex: 1;
+                    margin-top: 38px;
+                    .left-title{
+                        color: #666666;
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-bottom: 24px;
+                    }
+                    .left-info{
+                        color: #999999;
+                        font-size: 16px;
+                        width: 400px;
+                        text-align: justify;
+                    }
+                }
+                .right{
+                    flex: 1;
+                    margin-left: 20px;
+                    img{
+                        width: 490px;
+                        height: 273px;
+                    }
+                }
+            }
+        }
+        .bottom{
+            width: 99%;
+            background-color: #F5F6FA;
+            padding: 87px 356px 0;
+    
+          
+            .info-box{
+                display: flex;
+                flex-direction: row;
+    
+              
+                .left{
+                    flex: 1;
+                    margin-top: 38px;
+                    .title-icon{
+                        margin-bottom: 5px;
+                        
+                    
+                        img{
+                            width: 40px;
+                            height: 4px;
+                        }
+                    }
+                    .title{
+                        margin-bottom:43px;
+                        .title-top{
+                            font-size: 20px;
+                            color: #333333;
+                            font-weight: bold;
+                        }
+                        .title-bottom{
+                            font-size: 14px;
+                            color: #999999;
+                        }
+                    }
+                    .left-title{
+                        color: #666666;
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-bottom: 24px;
+                    }
+                    .left-info{
+                        color: #999999;
+                        font-size: 16px;
+                        width: 400px;
+                        text-align: justify;
+                    }
+                    .qr{
+                        margin-top: 80px;
+                        width: 140px;
+                        height: 140px;
+                    }
+                }
+                .right{
+      
+                    flex: 1;
+                    margin-left: -100px;
+                    
+                    img{
+                     
+                        width: 1092px;
+                        height: 578px;
+                    }
+                }
+            }
+        }
+    }
+    .box1{
+        
+        margin-top: 20px;
+     
+        .bg-img{
+            height:650px;
+            position: relative;
+            width: 99%;
+            background: url('../../static/images/map.png') no-repeat center;
+            background-size: cover cover;
+            .left{
+                position: absolute;
+                left: 340px;
+                top: 0px;
+       
+                .title-icon{
+                    margin-bottom: 5px;
+                    
+                
+                    img{
+                        width: 40px;
+                        height: 4px;
+                    }
+                }
+                .title{
+                    margin-bottom:43px;
+                    .title-top{
+                        font-size: 20px;
+                        color: #333333;
+                        font-weight: bold;
+                    }
+                    .title-bottom{
+                        font-size: 14px;
+                        color: #999999;
+                    }
+                }
+               
+                .left-info{
+                    color: #999999;
+                    font-size: 16px;
+                    width: 400px;
+                    text-align: justify;
+                }
+               
+            }
+        }
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0 ;
+        color: #999999;
+        font-size: 14px;
+   
+    }
+}
+
+#home /deep/ {}

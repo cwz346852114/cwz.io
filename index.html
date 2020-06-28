@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- 声明文档使用的字符编码 -->
+  <meta charset='utf-8'>
+  <!-- 优先使用 IE 最新版本和 Chrome -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <!-- 页面描述 -->
+  <meta name="description" content="惠课堂" />
+  <!-- 页面关键词 -->
+  <meta name="keywords" content="惠课堂官网" />
+  <!-- 网页作者 -->
+  <meta name="author" content="chenwenzhu" />
+  <!-- 搜索引擎抓取 -->
+  <meta name="robots" content="index,follow" />
+  <!-- 为移动设备添加 viewport -->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+  <!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 http://bigc.at/ios-webapp-viewport-meta.orz -->
+  <meta name="baidu-site-verification" content="El66WIMwN4" />
+  <title>惠课堂</title>
+  <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel='icon' href='./assets/images/favicon.ico' type='image/x-icon'>
+
+  <link rel="stylesheet" href="./assets/lib/styles.css">
+  <link rel="stylesheet" href="./assets/css//index.css">
+  <script src="./assets/lib/vue.min.js"></script>
+  <script src='./assets/lib/jquery.min.js'></script>
+
+</head>
+
+<body>
+  <div id="App">
+    <header class="head">
+      <div class="img">
+        <img src="./assets/images/red-logo@2x.png" alt />
+      </div>
+      <div class="right-img">
+        <nav class="nav">
+          <div class="tabs active" v-if='index==1' @click="change1">首页</div>
+          <div class="tabs " v-else @click="change1">首页</div>
+
+          <div class="tabs active" v-if='index==2' @click="change2">联系我们</div>
+          <div class="tabs" v-else @click="change2">联系我们</div>
+        </nav>
+      </div>
+    </header>
+    <div v-show="index==1" class="box">
+      <div class="top">
+        <img src="./assets/images/banner@2x.jpg" alt />
+      </div>
+      <div class="center">
+        <div class="title-icon">
+          <img src="./assets/images/juxing@2x.png" alt />
+        </div>
+        <div class="title">
+          <div class="title-top">公司简介</div>
+          <div class="title-bottom">Company Profile</div>
+        </div>
+        <div class="info-box">
+          <div class="left">
+            <div class="left-title">上海伊瓜苏网络科技有限公司</div>
+            <div class="left-info">
+              上海伊瓜苏网络科技有限公司,以下简称“伊瓜苏”，定位为教育培训行业的科技赋能
+              运营领导者，通过互联网、大数据和人工智能技术，为学员推荐最优的机构培训课程，
+              帮助教育机构提升招生展业能力。
+            </div>
+          </div>
+
+
+          <div class="right">
+            <img src="./assets/images/picture1@2x.png" alt />
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="info-box">
+          <div class="left">
+            <div class="title-icon">
+              <img src="./assets/images/juxing@2x.png" alt />
+            </div>
+            <div class="title">
+              <div class="title-top">产品介绍</div>
+              <div class="title-bottom">Product Introduction</div>
+            </div>
+            <div class="left-title">惠课堂是“伊瓜苏”旗下品牌</div>
+            <div class="left-info">
+              与国内众多大型连锁教育培训机构紧密合作，面向
+              全国有接受教育培训意愿的学员提供选课服务，
+              为学员和培训机构做最佳匹配；提供公平、公正、
+              透明的第三方撮合交易服务
+            </div>
+            <div class="qr">
+              <img src="./assets/images/erweima.png" alt />
+            </div>
+          </div>
+          <div class="right">
+            <img src="./assets/images/picture2@2x.png" alt />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div v-show="index==2">
+      <div class="box1">
+        <div>
+          <div class="bg-img">
+            <div class="left">
+              <div class="title-icon">
+                <img src="./assets/images/juxing@2x.png" alt />
+              </div>
+              <div class="title">
+                <div class="title-top">联系我们</div>
+                <div class="title-bottom">Contact Us</div>
+              </div>
+
+              <div class="left-info">地址：上海市徐汇区田林路487号20号楼</div>
+              <div class="left-info">联系电话：400-158-2268</div>
+              <div class="left-info">邮箱：duncan.deng@zexue.tech</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div style="margin-bottom:10px">Copyright 2020-2021 惠课堂（上海伊瓜苏网络科技有限公司）</div>
+      <div>沪ICP备20007095号-1</div>
+    </footer>
+  </div>
+  <script>
+
+  </script>
+  <script>
+    var vm = new Vue({
+      el: '#App',
+      data: {
+        index: 1
+
+      },
+      methods: {
+        change1() {
+          this.index = 1;
+       
+        },
+        change2() {
+          this.index = 2;
+        }
+      }
+    })
+
+  </script>
+
+</body>
+
+</html>
