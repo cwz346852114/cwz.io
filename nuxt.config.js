@@ -1,6 +1,7 @@
 
 module.exports = {
     router: {
+        base:'/cwz',
         mode:"history"
     },
     mode:'spa',
@@ -11,13 +12,13 @@ module.exports = {
         }
     },
     generate:{
-        router:[
-            '/home'
-        ]
+       dir:'docs',
+       subFolders:false
     },
     css: [
     ],
     build: {
+        assetsPublicPath: './'
     },
     plugins: [
         {
