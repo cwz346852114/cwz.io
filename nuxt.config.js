@@ -14,8 +14,7 @@ module.exports = {
   
     generate:{
         router:[
-            '/home',
-            '/richText'
+            '/home'
         ]
     },
     css: [
