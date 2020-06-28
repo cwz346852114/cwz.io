@@ -1,17 +1,15 @@
 
 module.exports = {
     router: {
-        base:'/guanwang',
         mode:"history"
     },
-    mode:'Universal',
+    mode:'spa',
     srcDir: 'src/',
     build: {
         babel: {
 
         }
     },
-  
     generate:{
         router:[
             '/home'
